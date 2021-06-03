@@ -1,0 +1,46 @@
+
+body{
+    background-image: url('https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png');
+}
+.calculator{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 25px solid #D83D85;
+    width: 40%;
+    height: 75%;
+    border-radius: 5%;
+}
+table{
+    width: 100%;
+    height: 100%;
+}
+table button{
+    width: 100%;
+    height: 100%;
+}
+table td{
+    width: 25%;
+    height: 20%;
+}
+table input[type="text"]{
+    width: 99%;
+    height: 93%;
+    outline: none;
+    text-align: end;
+    font-size: 24px;
+    cursor: pointer;
+}
+table tr{
+    height: 20%;
+    width: 100%;
+}
+
+button{
+    font-size: 24px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
