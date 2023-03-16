@@ -44,3 +44,9 @@ button:hover{
     background-color: black;
     color: white;
 }
+
+@media(max-width:992px){
+    .calculator{
+        width: 85% !important;
+    }
+}
